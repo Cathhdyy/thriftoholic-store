@@ -74,7 +74,7 @@ const REVIEWS = [
 ];
 
 const INSTAGRAM_POSTS = [
-  "https://postimg.cc/7GWjZkYh][img]https://i.postimg.cc/7GWjZkYh/1.jpg[/img][/url",
+  "https://i.postimg.cc/7GWjZkYh/1.jpg",
   "imgs/2.jpg",
   "imgs/3.jpg",
   "imgs/4.jpg",
