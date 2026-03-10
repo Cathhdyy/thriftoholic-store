@@ -1462,7 +1462,7 @@ export default function App() {
 
                 <div className="w-full h-full rounded-2xl overflow-hidden relative">
 
-                    <img src="https://i.postimg.cc/5XvXb4gg/Chat-GPT-Image-Mar-11-2026-01-43-36-AM.png" alt="Thriftoholic Store" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                    <img src="https://i.postimg.cc/FHC3b1JM/Chat-GPT-Image-Mar-11-2026-01-43-36-AM.png" alt="Thriftoholic Store" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
 
                     <div className="absolute inset-0 bg-gradient-to-t from-pink-500/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
@@ -2028,4 +2028,4 @@ export default function App() {
 
   );
 
-      }
+}
