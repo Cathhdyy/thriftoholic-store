@@ -75,11 +75,11 @@ const REVIEWS = [
 
 const INSTAGRAM_POSTS = [
   "https://i.postimg.cc/7GWjZkYh/1.jpg",
-  "imgs/2.jpg",
-  "imgs/3.jpg",
-  "imgs/4.jpg",
-  "imgs/5.jpg",
-  "imgs/6.jpg"
+  "https://i.postimg.cc/4HHqKSm1/2.jpg",
+  "https://i.postimg.cc/47SjxgNw/3.jpg",
+  "https://i.postimg.cc/ZBMX5SKd/4.jpg",
+  "https://i.postimg.cc/G82ZR2r4/5.jpg",
+  "https://i.postimg.cc/hzjHnjgB/6.jpg"
 ];
 
 export default function App() {
