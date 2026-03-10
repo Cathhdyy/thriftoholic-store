@@ -1444,47 +1444,59 @@ export default function App() {
 
 
 
-            {/* Interactive Image Side (Polaroid Fan) */}
+            {/* Interactive Image Side */}
 
             <div className="order-1 lg:order-2 relative h-[350px] sm:h-[500px] w-full flex items-center justify-center group cursor-pointer pt-10 sm:pt-0">
 
-              {/* Background decorative blob */}
+              {/* Background decorative blobs */}
 
-              <div className="absolute w-64 h-64 bg-pink-200 rounded-full mix-blend-multiply filter blur-3xl opacity-50 group-hover:scale-110 transition-transform duration-700"></div>
+              <div className="absolute w-64 h-64 bg-pink-200 rounded-full mix-blend-multiply filter blur-3xl opacity-50 group-hover:scale-110 group-hover:bg-pink-300 transition-all duration-700"></div>
 
-
-
-              {/* Card 1 (Bottom Left) */}
-
-              <div className="absolute w-[55%] sm:w-[45%] aspect-[4/5] bg-white p-2 sm:p-3 rounded-2xl shadow-xl border border-gray-100 transform -rotate-12 -translate-x-8 translate-y-4 group-hover:-rotate-24 group-hover:-translate-x-20 transition-all duration-500 z-10 hover:!z-40 hover:scale-105">
-
-                <img src="https://images.unsplash.com/photo-1542282088-fe8426682b8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Scenic Hills" className="w-full h-full object-cover rounded-xl" />
-
-              </div>
+              <div className="absolute w-64 h-64 bg-amber-200 rounded-full mix-blend-multiply filter blur-3xl opacity-40 translate-x-20 translate-y-10 group-hover:scale-110 transition-transform duration-700"></div>
 
 
 
-              {/* Card 2 (Bottom Right) */}
+              {/* Main Single Card */}
 
-              <div className="absolute w-[55%] sm:w-[45%] aspect-[4/5] bg-white p-2 sm:p-3 rounded-2xl shadow-xl border border-gray-100 transform rotate-12 translate-x-8 translate-y-4 group-hover:rotate-24 group-hover:translate-x-20 transition-all duration-500 z-20 hover:!z-40 hover:scale-105">
+              <div className="relative w-[75%] sm:w-[65%] aspect-[4/5] bg-white p-2 sm:p-3 rounded-3xl shadow-2xl shadow-pink-200/40 border border-pink-50 transform rotate-3 group-hover:rotate-0 group-hover:-translate-y-4 transition-all duration-500 z-30">
 
-                <img src="https://images.unsplash.com/photo-1434389678232-0678b8772391?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Thrifted Clothes" className="w-full h-full object-cover rounded-xl" />
+                <div className="w-full h-full rounded-2xl overflow-hidden relative">
 
-              </div>
+                    <img src="https://i.postimg.cc/5XvXb4gg/Chat-GPT-Image-Mar-11-2026-01-43-36-AM.png" alt="Thriftoholic Store" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
 
+                    <div className="absolute inset-0 bg-gradient-to-t from-pink-500/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
+                </div>
 
-              {/* Card 3 (Top Center) */}
-
-              <div className="absolute w-[60%] sm:w-[50%] aspect-[4/5] bg-white p-2 sm:p-3 rounded-2xl shadow-2xl border border-gray-100 transform z-30 group-hover:-translate-y-8 transition-all duration-500 hover:scale-105">
-
-                <img src="https://i.postimg.cc/hzjHnjgB/6.jpg" alt="Aesthetic Setup" className="w-full h-full object-cover rounded-xl" />
+                
 
                 {/* Floating Namchi Tag */}
 
-                <div className="absolute -bottom-4 -right-4 sm:-right-6 bg-white px-3 py-1.5 sm:px-4 sm:py-2 rounded-full shadow-lg border border-pink-100 text-[10px] sm:text-xs font-bold text-pink-500 flex items-center gap-1 group-hover:scale-110 transition-transform">
+                <div className="absolute -bottom-5 -right-5 sm:-right-8 bg-white/95 backdrop-blur px-4 py-2 sm:px-5 sm:py-3 rounded-2xl shadow-xl border border-pink-100 flex items-center gap-2 group-hover:scale-110 group-hover:-translate-y-2 transition-all duration-300 animate-bounce-slow">
 
-                  <MapPin size={12} /> Namchi, SK
+                  <div className="w-8 h-8 rounded-full bg-pink-100 flex items-center justify-center text-pink-500">
+
+                     <MapPin size={16} /> 
+
+                  </div>
+
+                  <div>
+
+                     <p className="text-xs sm:text-sm font-bold text-gray-900 leading-tight">Namchi, SK</p>
+
+                     <p className="text-[10px] text-gray-500">Local Brand</p>
+
+                  </div>
+
+                </div>
+
+                
+
+                {/* Sparkle decoration */}
+
+                <div className="absolute -top-4 -left-4 text-amber-400 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
+
+                   <Sparkles size={32} className="animate-pulse" />
 
                 </div>
 
@@ -1664,7 +1676,7 @@ export default function App() {
 
             <div className="bg-white p-4 sm:p-6 rounded-2xl sm:rounded-[2rem] shadow-sm hover:shadow-xl hover:-translate-y-1 sm:hover:-translate-y-2 transition-all duration-500 border border-pink-50 flex flex-col items-center text-center">
 
-              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-pink-100 rounded-full flex items-center justify-center text-pink-500 mb-3 sm:mb-4">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-pink-100 rounded-full flex items-center justify-center text-pink-50 mb-3 sm:mb-4">
 
                 <Lock size={20} className="sm:w-7 sm:h-7" />
 
@@ -2016,4 +2028,4 @@ export default function App() {
 
   );
 
-}
+      }
