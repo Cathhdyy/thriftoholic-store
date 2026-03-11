@@ -561,7 +561,7 @@ export default function App() {
               <div className="absolute inset-0 bg-gradient-to-t from-pink-500/20 to-transparent opacity-60 rounded-[2.2rem]"></div>
             </div>
             {/* Floating Badge */}
-            <div className="absolute -bottom-8 -left-8 bg-white/95 backdrop-blur-md p-4 sm:p-5 rounded-[2rem] shadow-2xl shadow-pink-200/50 animate-bounce-slow border-4 border-white">
+            <div className="absolute -bottom-8 -left-2 sm:-left-8 bg-white/95 backdrop-blur-md p-4 sm:p-5 rounded-[2rem] shadow-2xl shadow-pink-200/50 animate-bounce-slow border-4 border-white">
               <div className="flex items-center gap-3 sm:gap-4">
                 <div className="w-12 h-12 sm:w-14 sm:h-14 bg-pink-100 rounded-full flex items-center justify-center text-pink-500 shadow-inner">
                   <Heart className="fill-pink-500 sm:w-7 sm:h-7" size={24} />
@@ -909,24 +909,24 @@ export default function App() {
       </section>
 
       {/* FAQ Teaser Section */}
-      <section className="py-16 sm:py-24 relative">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center bg-white/60 backdrop-blur-lg border-[6px] border-white shadow-2xl shadow-pink-100/50 rounded-[3rem] sm:rounded-[4rem] py-16 sm:py-20 relative overflow-hidden">
+      <section className="py-12 sm:py-24 relative">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center bg-white/60 backdrop-blur-lg border-4 sm:border-[6px] border-white shadow-2xl shadow-pink-100/50 rounded-[2rem] sm:rounded-[4rem] py-10 sm:py-20 relative overflow-hidden">
           {/* Decorative Dashed Ring */}
-          <div className="absolute inset-4 sm:inset-6 border-4 border-dashed border-pink-100/50 rounded-[2.5rem] sm:rounded-[3.5rem] pointer-events-none"></div>
+          <div className="absolute inset-3 sm:inset-6 border-2 sm:border-4 border-dashed border-pink-100/50 rounded-[1.5rem] sm:rounded-[3.5rem] pointer-events-none"></div>
           
           <div className="relative z-10">
-            <div className="w-20 h-20 bg-pink-50 rounded-[2rem] flex items-center justify-center shadow-lg border-4 border-white mx-auto mb-8 text-pink-500">
-              <MessageCircle size={32} className="fill-pink-100" />
+            <div className="w-14 h-14 sm:w-20 sm:h-20 bg-pink-50 rounded-[1.5rem] sm:rounded-[2rem] flex items-center justify-center shadow-lg border-2 sm:border-4 border-white mx-auto mb-5 sm:mb-8 text-pink-500">
+              <MessageCircle size={32} className="fill-pink-100 sm:w-8 sm:h-8 w-6 h-6" />
             </div>
-            <h2 className="text-3xl sm:text-4xl font-serif font-bold text-gray-900 mb-4">Got Questions? 💭</h2>
-            <p className="text-base sm:text-lg font-medium text-gray-600 mb-10 max-w-lg mx-auto leading-relaxed">
+            <h2 className="text-2xl sm:text-4xl font-serif font-bold text-gray-900 mb-3 sm:mb-4">Got Questions? 💭</h2>
+            <p className="text-sm sm:text-lg font-medium text-gray-600 mb-8 sm:mb-10 max-w-lg mx-auto leading-relaxed px-2 sm:px-0">
               Wondering about shipping, sizes, or how to order? We've got all the answers ready for you in our Frequently Asked Questions!
             </p>
             <a 
               href="/faq" 
-              className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-gray-900 text-white border-4 border-gray-800 rounded-full font-bold text-base sm:text-lg hover:bg-pink-500 hover:border-pink-400 transition-all hover:-translate-y-1 active:scale-95 shadow-xl shadow-pink-200/50"
+              className="inline-flex items-center justify-center gap-2 px-8 py-3.5 sm:px-10 sm:py-4 bg-gray-900 text-white border-4 border-gray-800 rounded-full font-bold text-sm sm:text-lg hover:bg-pink-500 hover:border-pink-400 transition-all hover:-translate-y-1 active:scale-95 shadow-xl shadow-pink-200/50"
             >
-              <Sparkles size={20} className="text-pink-200" /> Read our FAQ
+              <Sparkles size={20} className="text-pink-200 sm:w-5 sm:h-5 w-4 h-4" /> Read our FAQ
             </a>
           </div>
         </div>
