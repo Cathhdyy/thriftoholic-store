@@ -55,7 +55,7 @@ const FAQS = [
   }
 ];
 
-export default function Faq() {
+export default function App() {
   const [openId, setOpenId] = useState(1); // First item open by default
   const [searchQuery, setSearchQuery] = useState('');
 
