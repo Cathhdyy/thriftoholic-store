@@ -725,6 +725,16 @@ export default function App() {
                   <span className="font-extrabold text-sm sm:text-base text-gray-800 leading-tight">Local Love <br/> <span className="font-medium text-xs sm:text-sm text-gray-500">From Sikkim</span></span>
                 </div>
               </div>
+
+              {/* View More / About Us Button */}
+              <div className="mt-8 sm:mt-10 w-full sm:w-auto">
+                <a 
+                  href="/about" 
+                  className="inline-flex items-center justify-center w-full sm:w-auto gap-2 px-8 py-4 bg-pink-50 text-pink-600 border-4 border-white rounded-full font-bold text-sm sm:text-base hover:bg-pink-500 hover:text-white hover:border-pink-400 transition-all shadow-xl shadow-pink-100/50 hover:-translate-y-1 active:scale-95"
+                >
+                  Read Our Full Story <ArrowRight size={18} />
+                </a>
+              </div>
             </div>
 
             {/* Interactive Image Side */}
