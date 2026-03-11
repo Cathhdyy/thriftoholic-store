@@ -248,9 +248,7 @@ export default function App() {
 
     e.preventDefault();
 
-    // Professional placeholder password for the demo
-
-    if (passwordInput === 'admin123') {
+    if (passwordInput === 'Sanskar12345') {
 
       setIsAdminAuthenticated(true);
 
@@ -394,7 +392,7 @@ export default function App() {
 
                   className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-pink-500 bg-gray-50 focus:bg-white transition-colors"
 
-                  placeholder="Enter password (admin123)"
+                  placeholder="Enter admin password"
 
                   autoFocus
 
@@ -2028,4 +2026,4 @@ export default function App() {
 
   );
 
-}
+                        }
